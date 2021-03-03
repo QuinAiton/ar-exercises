@@ -10,3 +10,5 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+@store_name = gets.chomp
+p Store.create(name:@store_name)
